@@ -78,7 +78,7 @@ export default function Home() {
               className="flex-1 flex justify-center"
             >
               <div className="relative w-64 h-64 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-primary/20 glow animate-float">
-                <img src="/profile_pic.jpg" alt="Vishak Vikranth" className="object-cover object-top w-full h-full" />
+                <img src="/profile_pic.JPG" alt="Vishak Vikranth" className="object-cover object-top w-full h-full" />
               </div>
             </motion.div>
           </div>
