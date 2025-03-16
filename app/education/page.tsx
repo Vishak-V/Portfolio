@@ -64,13 +64,13 @@ export default function EducationPage() {
                     Data Structures & Algorithms
                   </div>
                   <div className="bg-secondary/50 p-3 rounded-lg border border-primary/10 hover:border-primary/30 transition-colors">
-                    Database Management
+                    High Performance Computing
                   </div>
                   <div className="bg-secondary/50 p-3 rounded-lg border border-primary/10 hover:border-primary/30 transition-colors">
-                    Advanced Mathematics
+                    Data Science
                   </div>
                   <div className="bg-secondary/50 p-3 rounded-lg border border-primary/10 hover:border-primary/30 transition-colors">
-                    Statistical Analysis
+                    Math Stats With Applications
                   </div>
                   <div className="bg-secondary/50 p-3 rounded-lg border border-primary/10 hover:border-primary/30 transition-colors">
                     Machine Learning
