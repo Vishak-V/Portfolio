@@ -64,7 +64,7 @@ export default function Home() {
                     <Phone className="h-5 w-5" />
                   </Button>
                 </Link>
-                <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
+                <Link href="https://github.com/Vishak-V" target="_blank" rel="noopener noreferrer">
                   <Button variant="ghost" size="icon" className="rounded-full hover:bg-primary/20 hover:text-primary">
                     <Github className="h-5 w-5" />
                   </Button>
