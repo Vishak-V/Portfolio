@@ -49,6 +49,24 @@ export default function ProjectsPage() {
           />
         </motion.div>
 
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.4 }}
+        >
+          <ProjectCard
+            title="HackNet"
+            description="Tinder for Hackathons. A web application that matches users with teammates based on their skills and interests. Users can create and join teams, chat with teammates, and find hackathons to participate in."
+            image="/hackNet.png?height=300&width=600"
+            technologies={["Python", "SQL", "React", "Fast-API"]}
+            links={{
+              github: "https://github.com/Vishak-V/HackNet",
+              demo: "https://www.youtube.com/watch?v=L0HitBtj37w",
+              website: "https://hacknet-frontend.vercel.app/",
+            }}
+          />
+        </motion.div>
+
         
 
         <div className="mt-8">
@@ -100,7 +118,7 @@ function ProjectCard({
   description: string
   image: string
   technologies: string[]
-  links: { github?: string; demo?: string }
+  links: { github?: string; demo?: string; website?: string }
 }) {
   return (
     <Card className="overflow-hidden border border-primary/10 shadow-lg card-hover bg-gradient-to-br from-card to-card/80">
