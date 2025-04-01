@@ -156,11 +156,7 @@ export default function SkillsPage() {
                 <ul className="space-y-3">
                   <li className="flex items-center">
                     <span className="w-2 h-2 rounded-full bg-primary mr-3"></span>
-                    <span>Google Cloud Associate Engineer</span>
-                  </li>
-                  <li className="flex items-center">
-                    <span className="w-2 h-2 rounded-full bg-primary mr-3"></span>
-                    <span>Microsoft Azure Fundamentals</span>
+                    <span>SOA Exam FM</span>
                   </li>
                 </ul>
               </CardContent>
