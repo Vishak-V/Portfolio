@@ -36,7 +36,7 @@ export default function Home() {
             >
               <h1 className="text-5xl md:text-7xl font-bold tracking-tight gradient-heading mb-4">Vishak Vikranth</h1>
               <p className="mt-6 text-xl text-muted-foreground">
-                Computer Science & Mathematics Student at The University of Alabama
+                Software Development Engineer Intern at Amazon Web Services
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
                 <Button variant="glow" asChild>
