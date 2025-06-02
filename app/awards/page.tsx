@@ -14,6 +14,19 @@ export default function AwardsPage() {
       </motion.div>
 
       <div className="grid grid-cols-1 gap-8">
+      <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+        >
+          <AwardCard
+            icon={<Trophy className="h-10 w-10 text-yellow-500" />}
+            title="UA Innovate"
+            description="First Place in Full Stack Development"
+            details="•	Built an office supply and request management platform using agentic workflows to automate tasks and significantly reduce administrative overhead."
+          />
+        </motion.div>
+
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}

@@ -72,6 +72,23 @@ export default function ResumePage() {
 
                 <div className="ml-4 mb-6">
                   <div className="flex flex-col md:flex-row justify-between mb-2">
+                    <h4 className="font-semibold">Software Development Engineer Intern</h4>
+                    <span>May 2025-August 2025</span>
+                  </div>
+                  <p className="italic mb-2">Amazon Web Services, Seattle, WA</p>
+                  <ul className="list-disc ml-6 space-y-2 text-muted-foreground">
+                    <li>
+                    Integrating end-to-end (E2E) integration tests into the CI/CD pipeline, enhancing deployment reliability and saving 2+ developer hours per week.
+                    </li>
+                    <li>
+                      Developed a Python script to automate the generation of E2E test cases, significantly reducing
+                      manual effort and improving test coverage
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="ml-4 mb-6">
+                  <div className="flex flex-col md:flex-row justify-between mb-2">
                     <h4 className="font-semibold">Backend Engineering Intern</h4>
                     <span>June 2024-August 2024</span>
                   </div>

@@ -13,6 +13,24 @@ export default function ExperiencePage() {
       </motion.div>
 
       <div className="space-y-12">
+      <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.4 }}
+        >
+          <ExperienceCard
+            title="Software Development Engineer Intern"
+            company="Amazon Web Services"
+            location="Seattle, WA"
+            period="May 2025 - August 2025"
+            description={[
+              "Integrating end-to-end (E2E) integration tests into the CI/CD pipeline, enhancing deployment reliability and saving 2+ developer hours per week.",
+              "Developing a Python script to automate the generation of E2E test cases, significantly reducing manual effort and improving test coverage.",
+            ]}
+            skills={["Python", "Java", "AWS"]}
+          />
+        </motion.div>
+
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
