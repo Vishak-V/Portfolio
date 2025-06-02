@@ -100,27 +100,28 @@ export default function Home() {
             </h2>
           </motion.div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <HighlightCard
+              icon={<Code className="h-10 w-10 text-primary" />}
+              title="Software Development Engineer Intern"
+              description="Automating E2E integration testing for AWS DataZone using Python and AWS SDKs."
+              link="/experience"
+              delay={0.1}
+            />
             <HighlightCard
               icon={<Server className="h-10 w-10 text-primary" />}
               title="Backend Engineering Intern"
               description="Developed GoLang backend for Shipt Inc. to manage delivery windows and routes."
               link="/experience"
-              delay={0.1}
+              delay={0.3}
             />
             <HighlightCard
               icon={<Database className="h-10 w-10 text-primary" />}
               title="Data Analyst Intern"
               description="Led NCAA golf tournament simulations and analyzed ticket transfer data at University of Alabama."
               link="/experience"
-              delay={0.3}
-            />
-            <HighlightCard
-              icon={<Code className="h-10 w-10 text-primary" />}
-              title="Full Stack Developer"
-              description="Built projects using Python, React, SQL, and more across various domains."
-              link="/projects"
               delay={0.5}
             />
+            
           </div>
         </div>
       </section>
