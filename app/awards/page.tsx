@@ -23,7 +23,7 @@ export default function AwardsPage() {
             icon={<Trophy className="h-10 w-10 text-yellow-500" />}
             title="UA Innovate"
             description="First Place in Full Stack Development"
-            details="•	Built an office supply and request management platform using agentic workflows to automate tasks and significantly reduce administrative overhead."
+            details="Built an office supply and request management platform using agentic workflows to automate tasks and significantly reduce administrative overhead."
           />
         </motion.div>
 
